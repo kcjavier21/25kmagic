@@ -7,10 +7,9 @@
     font-size: 1.2rem;
     position: sticky;
     top: 0;
-    z-index: 999;
-    box-shadow: 5px 5px #242424;
     font-family: Open Sans;
     font-style: normal;
+    z-index: 999;
   }
   
   .navbar-container {

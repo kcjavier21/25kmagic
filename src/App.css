@@ -5,7 +5,7 @@
     font-family: 'PT Sans', sans-serif;
   }
   
-  .home,.services,.contactus,.sign-in {
+  .home,.services,.contact-us,.sign-in {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -17,15 +17,15 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #000;
     font-size: 100px;
   }
   
-  .contactus {
+  .contact-us {
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #000;
     font-size: 100px;
   }
   
@@ -33,7 +33,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: #000;
     font-size: 100px;
   }
   

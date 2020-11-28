@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
+import { Button } from './Buttons/Button';
 import './MainSection.css';
 import vidbg from './vids/vid-bg.mp4';
 
