@@ -68,7 +68,7 @@ function Navbar() {
                         </HashLink>
                     </li>
                     <li className='nav-item'>
-                        <HashLink to='/' className='nav-links-mobile' onClick={closeMobileMenu}>
+                        <HashLink to='/sign-in' className='nav-links-mobile' onClick={closeMobileMenu}>
                             SIGN IN
                         </HashLink>
                     </li>

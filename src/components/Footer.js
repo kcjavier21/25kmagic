@@ -1,6 +1,10 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import Ken from './imgs/Ken.png';
+import Maki from './imgs/Maki.png';
+import Neil from './imgs/Neil.png';
+import Mau from './imgs/Mau.png';
 
 function Footer() {
   return (
@@ -12,9 +16,7 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <svg width="194" height="180" viewBox="0 0 194 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="193.754" height="180" fill="#C4C4C4"/>
-            </svg>
+          <img src={Ken} alt='Ken'/>
             <Link to='/'><h4>Ken Carlo Javier</h4></Link>
             <h5>Lead Developer</h5>
             <div class='social-icons'>
@@ -33,9 +35,7 @@ function Footer() {
           </div>
           </div>
           <div class='footer-link-items'>
-            <svg width="194" height="180" viewBox="0 0 194 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="193.754" height="180" fill="#C4C4C4"/>
-            </svg>
+          <img src={Maki} alt='Maki'/>
             <Link to='/'><h4>Marck England Bautista</h4></Link>
             <h5>Front-End Developer</h5>
             <div class='social-icons'>
@@ -56,9 +56,7 @@ function Footer() {
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <svg width="194" height="180" viewBox="0 0 194 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="193.754" height="180" fill="#C4C4C4"/>
-            </svg>
+          <img src={Neil} alt='Neil'/>
             <Link to='/'><h4>Neil Christian Riego</h4></Link>
             <h5>Lead Designer</h5>
             <div class='social-icons'>
@@ -77,9 +75,7 @@ function Footer() {
           </div>
           </div>
           <div class='footer-link-items'>
-            <svg width="194" height="180" viewBox="0 0 194 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="193.754" height="180" fill="#C4C4C4"/>
-            </svg>
+            <img src={Mau} alt='Mau'/>
             <Link to='/'><h4>Allyza Maureen Catura</h4></Link>
             <h5>Marketing Lead</h5>
             <div class='social-icons'>

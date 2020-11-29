@@ -18,7 +18,7 @@ function Cards() {
                         <CardItem src={QR_Code_Utilization} text='Quick Response codes are used to store data such as health information and personal information.  It will be easier to collect and present data by just scanning QR codes.' label='QR Code Utilization' path='/services'/>
                     </ul>
                     <ul className='cards__items'>
-                        <CardItem src={Map} text='GOOGLE MAP (TEMP) - PUT [API KEY] HERE /src/components/Cards.js' label='Google Map' path='/map'/>
+                        <CardItem src={Map} text='' label='Navigation Map' path='/map'/>
                     </ul>
                 </div>
             </div>

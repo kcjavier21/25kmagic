@@ -1,0 +1,120 @@
+.form-container {
+  background-image: url(../imgs/Android-Smartphone.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin: 100px auto;
+  width: 500px;
+  position: relative;
+  border-radius: 10px;
+  height: 600px;
+  display: grid;
+}
+
+.form-img-2 {
+  width: 60%;
+  height: 60%;
+  position: relative;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-success {
+  padding-left: 20px;
+  padding-right: 40px;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 80px;
+  color: #000;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h1 {
+  font-size: 1rem;
+  text-align: center;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.form-inputs {
+  margin-bottom: 0.5rem;
+  width: 80%;
+}
+
+.form-inputs p {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #f00e0e;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: #000;
+}
+
+.form-input {
+  border: 4px solid black;
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: none;
+}
+
+.form-input::placeholder {
+  color: #595959;
+  font-size: 12px;
+}
+
+.form-input-btn {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background-color: #FF7473;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form-input-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(255,116,115) 100%,
+    rgb(255, 255, 255) 40%
+  );
+  transition: all 0.4s ease-out;
+}
+
+.form-input-login {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #000;
+  width: 80%;
+  text-align: center;
+}
+
+.form-input-login a {
+  text-decoration: none;
+  color: #FF7473;
+  font-weight: 600;
+}
