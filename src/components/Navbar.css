@@ -47,10 +47,6 @@
     margin-right: 2rem;
   }
   
-  .nav-item {
-    height: 80px;
-  }
-  
   .nav-links {
     color: #fff;
     display: flex;
@@ -117,8 +113,8 @@
   
     .navbar-logo {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 13px;
+      left: 13px;
       transform: translate(25%, 50%);
     }
   

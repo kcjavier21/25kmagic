@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <div className='footer-container' id='contact-us'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           MEET THE TEAM
@@ -32,11 +32,6 @@ function Footer() {
                 </Link>
           </div>
           </div>
-            {/* <ul className='cards__items' >
-                <CardItem src='fab fa-facebook-f' path='/services'/>
-                <CardItem src='fab fa-linkedin' path='/services'/>
-                <CardItem src='fab fa-github' path='/services'/>
-            </ul> */}
           <div class='footer-link-items'>
             <svg width="194" height="180" viewBox="0 0 194 180" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect width="193.754" height="180" fill="#C4C4C4"/>

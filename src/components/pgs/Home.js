@@ -4,7 +4,6 @@ import MainSection from '../MainSection';
 import Cards from '../Cards/Cards';
 import Footer from '../Footer';
 
-
 function Home() {
     return (
         <>
