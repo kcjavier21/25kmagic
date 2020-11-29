@@ -4,16 +4,16 @@
 - You can download the packages at npmjs.com
 
 - Here are the name of packages used in the project
-    "create-react-app"
-    "react"
-    "react-dom"
-    "react-icons"
-    "react-router-dom"
-    "react-router-hash-link"
-    "react-scripts"
-    "react-scroll"
-    "react-spring"
-    "styled-components"
+    - "create-react-app"
+    - "react"
+    - "react-dom"
+    - "react-icons"
+    - "react-router-dom"
+    - "react-router-hash-link"
+    - "react-scripts"
+    - "react-scroll"
+    - "react-spring"
+    - "styled-components"
 
 - After installing all the packages you can now write "npm start" in the terminal to run the program.
 
