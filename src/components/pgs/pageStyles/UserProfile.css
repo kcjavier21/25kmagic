@@ -1,0 +1,523 @@
+input, button, submit { border:none; } 
+* {
+    font-family: Open Sans;
+}
+
+#user-full-name {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color:rgba(0, 0, 0, 0.3); */
+
+    width: 532px;
+    position: absolute;
+    height: 65px;
+    left: 508px;
+    top: 132px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #000000;
+}
+
+#profile-pic {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color:rgba(0, 0, 0, 0.3); */
+
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    left: 320px;
+    top: 132px;
+}
+
+.static-info {
+    /* border-style: solid;
+    border-width: 1px;
+    border-color:rgba(0, 0, 0, 0.3); */
+
+    position: absolute;
+    width: 532px;
+    height: 120px;
+    left: 508px;
+    top: 186px;
+    /* Body Web */
+
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 167% */
+
+    text-align: justify;
+
+    color: #000000;
+        
+}
+
+#users-qr-code {
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 1040px;
+    top: 136px;
+}
+
+#cellphone {
+    position: absolute;
+    width: 527px;
+    height: 640px;
+    left: 1280px;
+    top: 360px;
+}
+
+#qrScanner {
+    position: absolute;
+    width: 320px;
+    height: 500px;
+    left: 1380px;
+    top: 440px;
+}
+
+.control-panel {
+    position: absolute;
+
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-color: #F67E7D;
+
+    left: 324px;
+    top: 360px;
+
+    width: 164px;
+    height: 480px;
+}
+
+.control-panel h4 {
+    background-color: #F67E7D; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    padding: 5px 20px;
+    margin-bottom: 15px;
+
+    color: #ffff;
+    font-size: 20px; 
+}
+
+
+.ctrl-panel-btn{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #F67E7D;
+
+    width: 120px;
+    height: 36px;
+    margin: 15px 20px;
+
+    background-color: rgba(0, 0, 0, 0);
+    color:#F67E7D;
+
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ctrl-panel-btn:hover{
+    color:#FFFF;
+    background-color:#F67E7D;
+    transition: 0.2s;
+}
+
+
+.information-panel {
+    position: absolute;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F67E7D;
+
+    width: 692px;
+    height: 445px;
+    left: 508px;
+    top: 395px;
+
+    padding: 28px;
+
+    font-size: 20px;
+}
+
+.information-panel p {
+    margin-bottom: 20px;
+}
+
+.getqr-btn {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #5A819E;
+
+    width: 90px;
+    height: 28px;
+    margin-left: 25px;
+    /* margin: 15px 20px; */
+
+    background-color: rgba(0, 0, 0, 0);
+    color:#5A819E;
+
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Open Sans;
+
+    cursor: pointer;
+}
+
+.getqr-btn:hover {
+    color: #FFFF;
+    background-color:#5A819E;
+
+    transition: 0.2s;
+}
+
+.info-btn{
+    position: absolute;
+
+    background-color: rgba(0, 0, 0, 0); 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color: #F67E7D;
+    border-style: solid;
+    border-width: 1px;
+
+    padding: 5px 16px;
+    margin-bottom: 15px;
+
+    color: #F67E7D;
+    font-size: 20px; 
+
+    height: 36px;
+    top: 280px;
+    left: 546px;
+    
+    cursor: pointer;
+}
+
+.info-btn:hover{
+    background-color: #F67E7D; 
+    color: #FFFF;
+    transition: 0.2s;
+}
+
+.active {
+    background-color: #F67E7D; 
+    color: #FFFF;
+}
+
+#health {
+    top: 360px;
+    left: 507px;
+}
+
+#tickets{
+    top: 360px;
+    left: 718px;
+}
+
+#transaction{
+    top: 360px;
+    left: 850px;
+}
+
+
+
+
+@media screen and (max-width: 1440px) {
+
+    #user-full-name {
+        width: 400px;
+        position: absolute;
+        height: 49px;
+        left: 252px;
+        top: 124px;
+
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 49px;
+        /* identical to box height */
+
+        text-align: justify;
+
+        color: #000000;
+    }
+
+    #profile-pic {
+        position: absolute;
+        width: 144px;
+        height: 144px;
+        left: 90px;
+        top: 124px;
+    }
+
+    .static-info {
+        position: absolute;
+        width: 400px;
+        height: 90px;
+        left: 252px;
+        top: 176px;
+        /* Body Web */
+
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        /* or 167% */
+
+        text-align: justify;
+
+        color: #000000;
+            
+    }
+
+    #users-qr-code {
+        position: absolute;
+        width: 124px;
+        height: 124px;
+        left: 664px;
+        top: 139px;
+    }
+
+    #cellphone {
+        position: absolute;
+        width: 440px;
+        height: 560px;
+        left: 828px;
+        top: 206px;
+    }
+
+    #qrScanner {
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        left: 900px;
+        top: 280px;
+    }
+
+    .control-panel {
+        position: absolute;
+
+        border-style: solid;
+        border-width: 1px;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+        border-color: #F67E7D;
+
+        left: 90px;
+        top: 300px;
+
+        width: 142px;
+        height: 432px;
+    }
+
+    .control-panel h4 {
+        background-color: #F67E7D; 
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        padding: 5px 16px;
+        margin-bottom: 15px;
+
+        color: #ffff;
+        font-size: 16px; 
+    }
+
+
+    .ctrl-panel-btn{
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        border-color: #F67E7D;
+
+        width: 100px;
+        height: 30px;
+        margin: 15px 20px;
+
+        background-color: rgba(0, 0, 0, 0);
+        color:#F67E7D;
+
+        cursor: pointer;
+    }
+
+    .information-panel {
+        position: absolute;
+
+        border-style: solid;
+        border-width: 1px;
+        border-color: #F67E7D;
+
+        width: 528px;
+        height: 400px;
+        left: 254px;
+        top: 332px;
+
+        padding: 24px;
+
+        font-size: 16px;
+    }
+
+    .information-panel p {
+        margin-bottom: 20px;
+    }
+
+    .getqr-btn {
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 10px;
+        border-color: #5A819E;
+
+        width: 80px;
+        height: 24px;
+        margin-left: 5px;
+        /* margin: 15px 20px; */
+
+        background-color: rgba(0, 0, 0, 0);
+        color:#5A819E;
+        font-size: 14px;
+
+        cursor: pointer;
+    }
+
+    .getqr-btn:hover {
+        color: #FFFF;
+        background-color:#5A819E;
+
+        transition: 0.2s;
+    }
+
+    
+
+    /* #info-btn-health{
+        position: absolute;
+
+        background-color: #F67E7D; 
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        padding: 5px 16px;
+        margin-bottom: 15px;
+
+        color: #ffff;
+        font-size: 18px; 
+
+        top: 300px;
+        left: 254px;
+    } */
+
+    /* #info-btn-tickets{
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0); 
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-color: #F67E7D;
+        border-style: solid;
+        border-width: 1px;
+
+        padding: 5px 16px;
+        margin-bottom: 15px;
+
+        color: #F67E7D;
+        font-size: 18px; 
+
+        height: 32px;
+        top: 300px;
+        left: 432px;
+    } */
+
+    .info-btn{
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0); 
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-color: #F67E7D;
+        border-style: solid;
+        border-width: 1px;
+
+        padding: 5px 16px;
+        margin-bottom: 15px;
+
+        color: #F67E7D;
+        font-size: 16px; 
+
+        height: 32px;
+        top: 300px;
+        left: 546px;
+
+        cursor: pointer;
+    }
+
+    .info-btn:hover{
+        background-color: #F67E7D; 
+        color: #FFFF;
+        transition: 0.2s;
+    }
+
+    .active {
+        background-color: #F67E7D; 
+        color: #FFFF;
+    }
+
+    #health {
+        top: 300px;
+        left: 254px;
+    }
+
+    #tickets{
+        top: 300px;
+        left: 430px;
+    }
+
+    #transaction{
+        top: 300px;
+        left: 542px;
+    }
+
+    
+
+    
+
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    #cellphone {
+        position: absolute;
+        width: 440px;
+        height: 560px;
+        left: 250px;
+        top: 806px;
+    }
+
+    #qrScanner {
+        position: absolute;
+        width: 300px;
+        height: 400px;
+        left: 316px;
+        top: 880px;
+    }
+} 
+

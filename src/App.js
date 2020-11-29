@@ -1,16 +1,15 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
 
 import Navbar from './components/Navbar.jsx';
-import QRGenerator from './components/qrGenerator.jsx';
-import Services from './components/pgs/Services';
-import ContactUs from './components/pgs/ContactUs';
-import SignIn from './components/pgs/SignIn';
-
 import Home from './components/pgs/Home.jsx';
 
+import Services from './components/pgs/Services';
+
+import SignIn from './components/SignIn/Form';
+import SignUp from './components/SignUp/Form';
+import UserProfile from './components/pgs/UserProfile';
 
 function App() {
   return (
@@ -21,8 +20,9 @@ function App() {
           <Switch>
             <Route path='/' exact component={Home} />
             <Route path='/services' component={Services} />
-            <Route path='/contact-us' component={ContactUs} />
             <Route path='/sign-in' component={SignIn} />
+            <Route path='/sign-up' component={SignUp} />
+            <Route path='/user-profile' component={UserProfile} />
           </Switch>
       </Router>
     </React.Fragment>
