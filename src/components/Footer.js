@@ -17,80 +17,80 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
           <img src={Ken} alt='Ken'/>
-            <Link to='/'><h4>Ken Carlo Javier</h4></Link>
+           <h4>Ken Carlo Javier</h4>
             <h5>Lead Developer</h5>
             <div class='social-icons'>
-                <Link
-                class='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'>
+                <a
+                class='social-icon-link facebook' href='https://www.facebook.com/kcjavier21' target="_blank" aria-label='Facebook'>
                 <i class='fab fa-facebook-f' />
-                </Link>
-                <Link
-                class='social-icon-link twitter' to='/' target='_blank' aria-label='LinkedIn'>
+                </a>
+                <a
+                class='social-icon-link twitter' href='https://www.linkedin.com/in/ken-javier-824109115/' target="_blank" aria-label='LinkedIn'>
                 <i class='fab fa-linkedin' />
-                </Link>
-                <Link
-                class='social-icon-link github' to='/' target='_blank' aria-label='Github'>
+                </a>
+                <a
+                class='social-icon-link github' href='https://github.com/kcjavier21' target="_blank" aria-label='Github'>
                 <i class='fab fa-github' />
-                </Link>
+                </a>
           </div>
           </div>
           <div class='footer-link-items'>
           <img src={Maki} alt='Maki'/>
-            <Link to='/'><h4>Marck England Bautista</h4></Link>
+            <h4>Marck England</h4>
             <h5>Front-End Developer</h5>
             <div class='social-icons'>
-                <Link
-                class='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'>
+                <a
+                class='social-icon-link facebook' href='https://www.facebook.com/marckengland' target="_blank" aria-label='Facebook'>
                 <i class='fab fa-facebook-f' />
-                </Link>
-                <Link
-                class='social-icon-link twitter' to='/' target='_blank' aria-label='LinkedIn'>
+                </a>
+                <a
+                class='social-icon-link twitter' href='https://www.linkedin.com/in/marck-england-bautista-6b50211bb/' target="_blank" aria-label='LinkedIn'>
                 <i class='fab fa-linkedin' />
-                </Link>
-                <Link
-                class='social-icon-link github' to='/' target='_blank' aria-label='Github'>
+                </a>
+                <a
+                class='social-icon-link github' href='https://github.com/marckengland' target="_blank" aria-label='Github'>
                 <i class='fab fa-github' />
-                </Link>
+                </a>
           </div>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
           <img src={Neil} alt='Neil'/>
-            <Link to='/'><h4>Neil Christian Riego</h4></Link>
+            <h4>Neil Christian Riego</h4>
             <h5>Lead Designer</h5>
             <div class='social-icons'>
-                <Link
-                class='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'>
+                <a
+                class='social-icon-link facebook' href='https://www.facebook.com/neilchristian.riego' target="_blank" aria-label='Facebook'>
                 <i class='fab fa-facebook-f' />
-                </Link>
-                <Link
-                class='social-icon-link twitter' to='/' target='_blank' aria-label='LinkedIn'>
+                </a>
+                <a
+                class='social-icon-link twitter' href='https://www.linkedin.com/in/neilriego/' target="_blank" aria-label='LinkedIn'>
                 <i class='fab fa-linkedin' />
-                </Link>
-                <Link
-                class='social-icon-link github' to='/' target='_blank' aria-label='Github'>
+                </a>
+                <a
+                class='social-icon-link github' href='' target='_blank' aria-label='Github'>
                 <i class='fab fa-github' />
-                </Link>
+                </a>
           </div>
           </div>
           <div class='footer-link-items'>
             <img src={Mau} alt='Mau'/>
-            <Link to='/'><h4>Allyza Maureen Catura</h4></Link>
+            <h4>Allyza Maureen Catura</h4>
             <h5>Marketing Lead</h5>
             <div class='social-icons'>
-                <Link
-                class='social-icon-link facebook' to='/' target='_blank' aria-label='Facebook'>
+                <a
+                class='social-icon-link facebook' href='https://www.facebook.com/AllyzaMaureen' target="_blank" aria-label='Facebook'>
                 <i class='fab fa-facebook-f' />
-                </Link>
-                <Link
-                class='social-icon-link twitter' to='/' target='_blank' aria-label='LinkedIn'>
+                </a>
+                <a
+                class='social-icon-link twitter' href='https://www.linkedin.com/in/allyza-maureen-catura-24bb7a1b9/' target='_blank' aria-label='LinkedIn'>
                 <i class='fab fa-linkedin' />
-                </Link>
-                <Link
-                class='social-icon-link github' to='/' target='_blank' aria-label='Github'>
+                </a>
+                <a
+                class='social-icon-link github' href='https://github.com/allyyy-za' target='_blank' aria-label='Github'>
                 <i class='fab fa-github' />
-                </Link>
+                </a>
           </div>
           </div>
         </div>
